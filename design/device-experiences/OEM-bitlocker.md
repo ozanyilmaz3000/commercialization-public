@@ -21,7 +21,7 @@ BitLocker drive encryption uses a system partition separate from the Windows par
 - The BitLocker system partition must not be encrypted.
 - The BitLocker system partition must have at least 250 MB of free space, above and beyond any space used by required files. This additional system partition can be used to host Windows Recovery Environment (RE) and OEM tools (provided by the OEM), so long as the partition still meets the 250 MB free space requirement. 
 
-For more information see [System.Client.SystemPartition](https://docs.microsoft.com/en-us/windows-hardware/design/compatibility/systems#systemclientsystempartition), and [Hard Drives and Partitions](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/hard-drives-and-partitions).
+For more information see [System.Client.SystemPartition](https://docs.microsoft.com/en-us/windows-hardware/test/hlk/testref/26f8c4a1-73c8-4f27-9c55-6db84298e02c), and [Hard Drives and Partitions](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/hard-drives-and-partitions).
 
 ## BitLocker automatic device encryption
 BitLocker automatic device encryption uses BitLocker drive encryption technology to automatically encrypt internal drives after the user completes the Out Of Box Experience (OOBE) on [Modern Standby](modern-standby.md) or HSTI-compliant hardware.  
